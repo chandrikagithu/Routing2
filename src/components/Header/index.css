@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    justify-content: space-between;
+  }
+}
+.wave-logo {
+  display: flex;
+}
+
+.wave {
+  width: 45%;
+  height: 40px;
+}
+.logo-name {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 9px;
+}
